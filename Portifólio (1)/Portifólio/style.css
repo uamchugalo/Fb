@@ -1,0 +1,64 @@
+*{ /*Seleciona todo conteudo da pagina*/ 
+    margin: 0;
+    padding: 0;
+}
+body{ /* todo o conteudo visual da pagina*/
+    background-color: black; /*cor de fundo*/
+    height: 100vh; /* altura do corpo*/
+    box-sizing: border-box; /*limitar margem*/
+    color: white; /* cor da fonte*/
+}
+h1{
+    color:white; /* cor do título*/
+    margin-bottom: 20px; /* margem inferior do título*/
+}
+p{
+    color:white; /* cor do parágrafo*/
+}
+
+.destaque_titulo{ /* strong*/
+    color:#e60909; /* cor do texto em destaque*/
+}
+
+.apresentacao{ /*main*/
+    margin: 10% 15%; /*topo/fundo direita esquerda*/ 
+    display: flex; /* flex direction: row; section (col esq) e img (col)*/
+    align-items: center; /* colunas centralizadas*/
+    justify-content: space-between; /* espaço entre as colunas*/
+}
+
+.apresentacao_links{ /* section - coluna esquerda*/
+    display: flex; /* h1 p div*/
+    flex-direction: column; /* direção das caixas em coluna*/
+    gap: 40px; /* distância entre as caixas*/
+    width: 50%; /* sections ocupa 50% de largura da main*/
+}
+
+.apresentacao_links{/*div*/
+    display: flex; /* elementos internos em flexbox*/
+    justify-content: space-evenly; /* espaço uniforme entre os elementos*/
+    flex-direction: row; /* direção das caixas em linha*/
+}
+
+.apresentacao_texto_texto{ /* texto da apresentação*/
+    font-size: 20px; /* tamanho da fonte do texto*/
+    margin-right: 15px; /* margem direita do texto*/
+}
+
+.apresentacao_texto_titulo{ /* título da apresentação*/
+    font-size: 30px; /* tamanho da fonte do título*/
+}
+
+.apresentacao_links_link{ /* link na apresentação*/
+    margin-top: 20px; /* margem superior do link*/
+    background-color: #e60909; /* cor de fundo do link*/
+    width: 100px; /* largura do link*/
+    border-radius: 30px; /* borda arredondada do link*/
+    font-size: 22px; /* tamanho da fonte do link*/
+    font-weight: 15px; /* espessura da fonte do link*/
+    padding: 15px; /* margem interna do link*/
+    text-decoration: #ade8f4; /* decoração do texto*/
+    color: #ffffff; /* cor da fonte do link*/
+    font-family: 'Roboto', 'Roboto'; /* família da fonte*/
+    text-align: center; /* alinhamento do texto no centro*/
+}
